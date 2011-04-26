@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>healthety.github.com/php_worker</name>
+  <summary>Healthety PEAR channel</summary>
+  <alias>healthety</alias>
+  <url>http://healthety.github.com/php_worker</url>
+</server>
