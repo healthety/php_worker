@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://healthety.github.com/healthety/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://healthety.github.com/php_worker">
     <title>Healthety PEAR channel Latest Releases</title>
-    <link href="http://healthety.github.com/healthety/" />
+    <link href="http://healthety.github.com/php_worker" />
     <author>
-        <name>http://healthety.github.com/healthety/</name>
+        <name>http://healthety.github.com/php_worker</name>
     </author>
 
 
