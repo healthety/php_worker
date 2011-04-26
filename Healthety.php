@@ -1,6 +1,6 @@
 <?php
 
-require 'WorkerSettings.php';
+require 'Healthety/WorkerSettings.php';
 
 register_shutdown_function(array('Healthety', 'shutdownWorkers'));
 

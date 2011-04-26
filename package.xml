@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>healthety</name>
+ <channel>healthety.github.com/healthety</channel>
+ <summary>php worker for healthety</summary>
+ <description>
+   php worker for healthety realtime monitoring framework
+ </description>
+ <lead>
+  <name>Healthety Team</name>
+  <user>healthety</user>
+  <email>team@healthety.de</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-04-25</date>
+ <time>00:00:01</time>
+ <version>
+  <release>0.0.2</release>
+  <api>0.0.2</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>Initial Release</notes>
+ <contents>
+   <dir name="/">
+    <file name="README.md" role="doc" />
+    <file baseinstalldir="/" name="Healthety.php" role="php" />
+
+	<file baseinstalldir="Healthety" name="OptionParser.php" role="php" />
+	<file baseinstalldir="Healthety" name="System.php" role="php" />
+	<file baseinstalldir="Healthety" name="Transmission.php" role="php" />
+	<file baseinstalldir="Healthety" name="Worker.php" role="php" />
+	<file baseinstalldir="Healthety" name="WorkerAbstract.php" role="php" />
+	<file baseinstalldir="Healthety" name="WorkerOptions.php" role="php" />
+	<file baseinstalldir="Healthety" name="WorkerSettings.php" role="php" />
+	
+   </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
